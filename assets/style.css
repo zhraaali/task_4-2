@@ -1,0 +1,327 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(./van-tay-media-TOBRTuE_uXA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+
+}
+.parent {
+
+    background-color: #317bd5b4;
+    background-size: cover;
+    height: 100vh;
+   
+}
+
+.first{
+    flex-wrap: wrap;
+    height: 50px;
+   
+}
+.firstleft{
+    flex-wrap: wrap;
+    
+}
+.firstright{
+    flex-wrap: wrap;
+}
+
+.header a{
+
+    padding-right: 30px;
+    color: white;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+.navbar-brand,
+.nav-link{
+
+    color: white;
+}
+
+.navbar{
+    z-index: 99;
+    top:10%;
+    
+}
+
+.navbar-scrolled {
+    top:0px !important;
+    background-color: black;
+}
+
+
+.hero{
+    color: white;
+    margin-top:20%;
+   
+}
+
+.btn{
+    background-color: #00aeff;
+    color: white;
+    border-color:#00aeff ;
+    border-radius: 15px;
+} 
+
+
+
+
+
+.Browse, .Browsee {
+    display: flex;
+    flex-direction:column ;
+
+    align-items: center; 
+} 
+.Browse h2 {
+    margin: 60px 0px 30px;
+}
+
+.one .card-body{
+    background-color: #f3f7fd;
+}
+.card-inbody{
+    margin-left: 20px;
+}
+
+.card-inbody a{
+    color: black;
+}
+
+.rounded-4{
+    width: 3em;
+    height: 3em;
+    background-color: white;
+    
+}
+.Browse svg {
+    width: 4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+.two{
+    
+    background-color:#f8f9fa;
+    margin: 5% 0 1% ;
+}
+
+.twoo{
+    width: 18vw;
+}
+
+.two .card-title{
+    width: 30vw;
+}
+
+ul{
+    list-style: none;
+}
+.two .card-img-top {
+    position: relative;
+    z-index: 1;
+    bottom: 10%;
+    left: 40%;
+    border-radius: 10%;
+}
+
+
+.pp{
+    width: 30vw;
+}
+
+.four, .seven, .nine{
+    background-color:#f8f9fa;
+}
+
+.four .card{
+    margin: 0 10%;
+}
+
+
+.right-icons{
+    color:rgb(159, 130, 2);
+}
+
+.price{
+    justify-content: space-between;
+}
+
+.five{
+    background-image: url(./van-tay-media-TOBRTuE_uXA-unsplash.jpg);
+    background-size: cover;
+    height: 100vh;
+}
+
+.five .containr {
+    background-color: #317bd5b4;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.phrases {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+      
+}
+
+.phrases p {
+    width: 36vw;
+}
+
+.six{
+    margin: 5% 0 1% ;
+}
+
+.six .containr{
+    width: 40vw;
+}
+
+
+.learn{
+    background-color: white;
+    color: #00aeff;
+}
+
+ .z{
+    width: 34%;
+    box-shadow: 60px -34px lightblue;
+
+}
+
+
+
+.cards {
+    gap: 1%;
+    
+}
+
+.school{
+    width: 32vw;
+    margin: 0 auto;
+}
+
+
+
+.h2{
+    width: 17vw;
+    margin: 0 auto;
+}
+
+.carousel-indicators button{
+    width: 8px !important;
+    height: 8px !important;
+    border-radius: 50%;
+    color: #00aeff !important;
+    background-color: #00aeff !important;
+}
+
+.d-block{
+    width: 6vw !important;
+    height:6vw;
+    border-radius: 50%;
+    margin: 50px auto;
+}
+
+.eight .cards .card{
+    width: 32vw;
+    
+}
+.eight .btn{
+    background-color: white;
+    color: blue;
+}
+
+.private{
+    background-color: blue !important;
+    color: white !important;
+}
+
+.nine p{
+    width: 32vw;
+}
+
+
+.ten .cdc{
+    width: 7vw;
+    height: 10vh;
+}
+.img{
+    width: 30vw;
+}
+.accordion-body{
+    width: 25vw;
+}
+
+
+.accordion-button::after{
+
+    background-image: url(./png-transparent-computer-icons-plus-and-minus-signs-symbol-plus-miscellaneous-cross-sign-thumbnail.png);
+}
+
+
+.accordion-button:not(.collapsed)::after{
+
+    background-image: url(./pngtree-vector-minus-icon-png-image_925716.png);
+}
+
+.ten{
+    padding-right: 2%;
+    gap: 1%;
+}
+
+.accordion-item{
+    border: none;
+}
+
+.ten strong{
+    width:100%;
+}
+
+
+
+
+.eleven .p{
+    width: 32vw;
+    margin: 0  auto;
+}
+
+
+
+.aboutus{
+    width: 15vw;
+}
+
+.child {
+    margin-right: 3%;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.images img{
+    width: 3vw;
+}
+
