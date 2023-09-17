@@ -19,21 +19,11 @@
 }
 
 .first{
-    flex-wrap: wrap;
-    height: 50px;
-   
-}
-.firstleft{
-    flex-wrap: wrap;
-    
-}
-.firstright{
-    flex-wrap: wrap;
+    height: 20px;
 }
 
 .header a{
 
-    padding-right: 30px;
     color: white;
 }
 
@@ -63,9 +53,11 @@ a{
 }
 
 
+
+
 .hero{
     color: white;
-    margin-top:20%;
+    margin-top:15%;
    
 }
 
@@ -75,20 +67,6 @@ a{
     border-color:#00aeff ;
     border-radius: 15px;
 } 
-
-
-
-
-
-.Browse, .Browsee {
-    display: flex;
-    flex-direction:column ;
-
-    align-items: center; 
-} 
-.Browse h2 {
-    margin: 60px 0px 30px;
-}
 
 .one .card-body{
     background-color: #f3f7fd;
@@ -108,6 +86,20 @@ a{
     
 }
 .Browse svg {
+    width: 4vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.Browsee .rounded-5{
+    width: 4em;
+    height: 4em;
+    border: 3px solid rgb(174, 173, 173);
+    
+}
+.Browsee svg {
     width: 4vh;
     position: absolute;
     top: 50%;
@@ -137,14 +129,14 @@ ul{
 .two .card-img-top {
     position: relative;
     z-index: 1;
-    bottom: 10%;
+    bottom: 20%;
     left: 40%;
     border-radius: 10%;
 }
 
 
 .pp{
-    width: 30vw;
+    width: 40vw;
 }
 
 .four, .seven, .nine{
@@ -158,10 +150,6 @@ ul{
 
 .right-icons{
     color:rgb(159, 130, 2);
-}
-
-.price{
-    justify-content: space-between;
 }
 
 .five{
@@ -195,9 +183,7 @@ ul{
     margin: 5% 0 1% ;
 }
 
-.six .containr{
-    width: 40vw;
-}
+
 
 
 .learn{
@@ -205,9 +191,10 @@ ul{
     color: #00aeff;
 }
 
+
  .z{
-    width: 34%;
-    box-shadow: 60px -34px lightblue;
+    width: 40%;
+    box-shadow: 65px -34px lightblue;
 
 }
 
@@ -220,16 +207,18 @@ ul{
 
 .school{
     width: 32vw;
-    margin: 0 auto;
+ 
 }
 
 
 
 .h2{
     width: 17vw;
-    margin: 0 auto;
 }
 
+.seven .img-fluid {
+    height: 100%;
+}
 .carousel-indicators button{
     width: 8px !important;
     height: 8px !important;
@@ -245,22 +234,16 @@ ul{
     margin: 50px auto;
 }
 
-.eight .cards .card{
-    width: 32vw;
-    
-}
+
 .eight .btn{
     background-color: white;
     color: blue;
 }
 
-.private{
-    background-color: blue !important;
-    color: white !important;
-}
+
 
 .nine p{
-    width: 32vw;
+    width: 50vw;
 }
 
 
@@ -287,10 +270,7 @@ ul{
     background-image: url(./pngtree-vector-minus-icon-png-image_925716.png);
 }
 
-.ten{
-    padding-right: 2%;
-    gap: 1%;
-}
+
 
 .accordion-item{
     border: none;
@@ -305,13 +285,12 @@ ul{
 
 .eleven .p{
     width: 32vw;
-    margin: 0  auto;
 }
 
 
 
 .aboutus{
-    width: 15vw;
+    width: 20vw;
 }
 
 .child {
